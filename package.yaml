@@ -13,10 +13,13 @@ extra-source-files:
 description:         Please see the README on GitHub at <https://github.com/yutotakano/speed-comparison#readme>
 
 dependencies:
+- attoparsec
+- megaparsec
 - base >= 4.7 && < 5
 - criterion
 - regex-tdfa
 - parsec
+- text
 - random
 
 library:
